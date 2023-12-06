@@ -1,6 +1,6 @@
 {
   "name": "rtkslice",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Snippet for slice in Redux Toolkit with Typescript",
   "keywords": ["rtkslice", "redux toolkit", "typescript", "snippet", "slice", "feature"],
   "author": "Anthony Menghi alias antocradev",
