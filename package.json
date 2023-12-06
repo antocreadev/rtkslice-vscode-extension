@@ -15,6 +15,7 @@
     "type": "git",
     "url": "https://github.com/antocreadev/snippet-slice-redux-toolkit-with-typescript.git"
   },
+  "publisher": "antocreadev",
    "contributes": {
         "snippets": [
             {
