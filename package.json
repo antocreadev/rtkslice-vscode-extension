@@ -4,7 +4,7 @@
   "description": "Snippet for slice in Redux Toolkit with Typescript",
   "keywords": ["rtkslice", "redux toolkit", "typescript", "snippet", "slice", "feature"],
   "author": "Anthony Menghi alias antocradev",
-  "license": "ISC",
+  "license": "MIT",
   "icon": "rtkslice.png",
   "engines": {
     "vscode": "^1.0.0"
