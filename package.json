@@ -9,6 +9,9 @@
   "engines": {
     "vscode": "^1.0.0"
   },
+  "categories": [
+    "Snippets"
+],
   "repository": {
     "type": "git",
     "url": "https://github.com/antocreadev/snippet-slice-redux-toolkit-with-typescript.git"
