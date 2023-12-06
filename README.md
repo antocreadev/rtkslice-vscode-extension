@@ -1,4 +1,4 @@
-# rtkslice : Snippet for Slice's Redux ToolKit (Typescript)
+# rtkslice : Snippet for Redux ToolKit's slice (Typescript)
 
 ## For use : 
 type ```rtkslice``` in typescript file and press enter

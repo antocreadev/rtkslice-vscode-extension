@@ -1,7 +1,7 @@
 {
   "name": "rtkslice",
-  "version": "1.0.2",
-  "description": "Snippet for slice in Redux Toolkit with Typescript",
+  "version": "1.0.3",
+  "description": "Snippet for Redux ToolKit's slice (Typescript)",
   "keywords": ["rtkslice", "redux toolkit", "typescript", "snippet", "slice", "feature"],
   "author": "Anthony Menghi alias antocradev",
   "license": "MIT",
@@ -14,7 +14,7 @@
 ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/antocreadev/snippet-slice-redux-toolkit-with-typescript.git"
+    "url": "https://github.com/antocreadev/rtkslice-vscode-extension.git"
   },
   "publisher": "antocreadev",
    "contributes": {
