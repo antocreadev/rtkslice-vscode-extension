@@ -1,13 +1,11 @@
 {
-  "name": "snippet-slice-redux-toolkit-with-typescript",
+  "name": "rtkslice",
   "version": "1.0.0",
-  "description": "Snippet for Slice in Redux Toolkit with Typescript",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "description": "Snippet for slice in Redux Toolkit with Typescript",
+  "keywords": ["rtkslice", "redux toolkit", "typescript", "snippet", "slice", "feature"],
   "author": "Anthony Menghi alias antocradev",
   "license": "ISC",
+  "icon": "rtkslice.png",
   "engines": {
     "vscode": "^1.0.0"
   },
@@ -17,10 +15,10 @@
   },
   "publisher": "antocreadev",
    "contributes": {
-        "snippets": [
+        "snippet": [
             {
                 "language": "typescript",
-                "path": "./snippets/sliceSnippet.json"
+                "path": "./snippet/rtkslice.json"
             }
         ]
     }
