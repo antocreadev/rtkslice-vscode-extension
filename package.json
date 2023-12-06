@@ -1,0 +1,22 @@
+{
+  "name": "snippet-slice-redux-toolkit-with-typescript",
+  "version": "1.0.0",
+  "description": "Snippet for Slice in Redux Toolkit with Typescript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anthony Menghi alias antocradev",
+  "license": "ISC",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+   "contributes": {
+        "snippets": [
+            {
+                "language": "typescript",
+                "path": "./snippets/sliceSnippet.json"
+            }
+        ]
+    }
+}

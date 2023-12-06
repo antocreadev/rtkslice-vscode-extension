@@ -1,0 +1,38 @@
+{
+	"ReduxToolkitSlice": {
+		"prefix": "rtkslice",
+		"body": [
+			"// Import",
+			"import { createSlice, PayloadAction } from '@reduxjs/toolkit';",
+			"",
+			"// Interface for initial state",
+			"export interface ${1:SliceName}State {",
+			"  ${2:property}: ${3:type};",
+			"}",
+			"",
+			"// initial state",
+			"const initialState: ${1:SliceName}State = {",
+			"  ${2:property}: ${4:initialValue},",
+			"};",
+			"",
+			"// createSlice",
+			"export const ${1:SliceName}Slice = createSlice({",
+			"  name: '${1:SliceName}',",
+			"  initialState,",
+			"  reducers: {",
+			"    ${5:reducerName}: (state, action: PayloadAction<${6:actionType}>) => {",
+			"      state.${2:property} = action.payload;",
+			"    },",
+			"  },",
+			"});",
+			"",
+			"// automatic exportation of actions",
+			"export const { ${5:reducerName} } = ${1:SliceName}Slice.actions;",
+			"",
+			"// export reducer",
+			"export default ${1:SliceName}Slice.reducer;"
+		],
+		"description": "Redux Toolkit Slice"
+	}
+	
+}
